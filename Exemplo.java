@@ -5,7 +5,7 @@
  */
 
 // Todo programa tem um ponto de entrada: o "método" main de alguma "classe"
-public class Hello {
+public class Exemplo {
   public static void main(String[] args) {
     System.out.println("Ola!!!! Jean seu primiero exemplo com Jenkins.");
   }
