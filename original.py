@@ -18,14 +18,14 @@ print ">> Conteudo lido: \n\n"
 print content + "\n\n"
 f.close()
 
-print ">> Obtendo informacoes sobre o versionamento do arquivo ...\n\n"
-fileInfo = subprocess.check_output("svn info \"" + os.getcwd() + "\info.txt\"")
-print fileInfo + "\n"
+#print ">> Obtendo informacoes sobre o versionamento do arquivo ...\n\n"
+#fileInfo = subprocess.check_output("svn info \"" + os.getcwd() + "\info.txt\"")
+#print fileInfo + "\n"
 
-p = open("C:\checkInfo\password.txt",'r')
-password = p.read()
-p.close() 
+#p = open("C:\checkInfo\password.txt",'r')
+#password = p.read()
+#p.close() 
 
-print ">> Log do SVN:\n\n"
-logSVN = subprocess.check_output("svn log \"" + os.getcwd() + "\info.txt\" --username brunocaeo --password " + password)
-print logSVN + "\n\n"
+#print ">> Log do SVN:\n\n"
+#logSVN = subprocess.check_output("svn log \"" + os.getcwd() + "\info.txt\" --username brunocaeo --password " + password)
+#print logSVN + "\n\n"
