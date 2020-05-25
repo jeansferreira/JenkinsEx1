@@ -1,0 +1,1 @@
+A Integração Contínua envolve a automatização de tarefas e o agendamento 
